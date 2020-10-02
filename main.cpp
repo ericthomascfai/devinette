@@ -6,7 +6,7 @@ int main() {
     char saisie=' ';
     debut:  //marqueur de debut pour le GOTO
     printf("Veuillez saisir un nombre entre 1 et 9\n");
-    scanf(" %c",&saisie);
+    scanf(" %c",&saisie); //mettre un espace avant le C car appels successifs
     if(!isdigit(saisie)) //si le saisie contient un caractere
     {
         printf("Le nombre n'est pas numérique\n");
